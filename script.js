@@ -49,8 +49,8 @@ class Dot {
     for (const body of bodies) {
       const r = body.pos.sub(this.pos);
       const num = this.mass * body.mass;
-      /*
       const denom = r.magSq();
+      /*
       if (denom > 0) {
         const rhat = r.normalize();
         this.accel = this.accel + 0; //rhat.mult(num / denom);
